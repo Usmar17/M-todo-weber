@@ -1,0 +1,154 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>¡Agrupa de 10 en 10!</title><meta property="og:type" content="website"><meta property="og:title" content="¡Agrupa de 10 en 10! 🎨"><meta property="og:description" content="Colorea, forma decenas y descubre las unidades. ¡Cinco retos divertidos!"><meta property="og:url" content="https://usmar17.github.io/M-todo-weber/agrupa-de-diez.html"><meta property="og:image" content="https://usmar17.github.io/M-todo-weber/agrupa-de-diez.jpg"><meta property="og:image:secure_url" content="https://usmar17.github.io/M-todo-weber/agrupa-de-diez.jpg"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1115"><meta property="og:image:height" content="1411"><meta property="og:image:alt" content="Juego de colorear colecciones y formar decenas"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="¡Agrupa de 10 en 10!"><meta name="twitter:description" content="Colorea colecciones y forma decenas y unidades"><meta name="twitter:image" content="https://usmar17.github.io/M-todo-weber/agrupa-de-diez.jpg"><style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,'Arial Rounded MT Bold',Arial,sans-serif;background:linear-gradient(135deg,#b8edff,#fff4c7);color:#183456}button,input{font:inherit}button{cursor:pointer;touch-action:manipulation}button:disabled{opacity:.55;cursor:default}.hidden{display:none!important}.screen{min-height:100dvh;display:flex;justify-content:center;align-items:center;padding:12px}.panel{width:min(100%,1050px);background:#fff;border:4px solid #fff;border-radius:26px;box-shadow:0 12px 40px #38658a38;padding:clamp(12px,2.5vw,28px);text-align:center}.intro{max-width:650px;background:linear-gradient(#fff,#fff7e6)}h1{font-size:clamp(28px,5vw,52px);color:#ed5b38;margin:8px 0}h2{margin:5px 0 10px}.hero{font-size:clamp(45px,10vw,90px);margin:8px}.muted{color:#5b7184}.btn{border:0;border-radius:16px;background:#177bd7;color:white;font-weight:900;padding:12px 20px;box-shadow:0 5px 0 #0b4e91;font-size:clamp(15px,2vw,20px)}.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #0b4e91}.red{background:#ed4848;box-shadow:0 5px 0 #a52121}.secondary{background:#eef5fc;color:#214a71;box-shadow:0 4px 0 #b4cbdc}.orange{background:#f5a623;box-shadow:0 4px 0 #c47d0b;color:#402c06}input{width:min(100%,350px);padding:13px;border:3px solid #a8c9e7;border-radius:13px;font-size:20px;text-align:center}.top{display:flex;align-items:center;justify-content:space-between;gap:7px;flex-wrap:wrap}.pill{background:#e5f4ff;border-radius:99px;padding:8px 12px;font-weight:900}.progress{height:10px;background:#e7edf4;border-radius:9px;overflow:hidden;margin:10px 0}.fill{height:100%;width:0;background:#36b98a;transition:width .3s}.instruction{font-size:clamp(15px,2vw,19px);font-weight:750;margin:8px 0}.palette{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;margin:9px 0}.swatch{height:38px;width:38px;border-radius:50%;border:3px solid white;outline:2px solid #c7d5e0;box-shadow:0 2px 3px #aaa}.swatch.active{outline:4px solid #263e59;transform:scale(1.1)}.eraser{background:#fff;color:#233d59;font-size:23px;display:grid;place-items:center}.eraser.active{background:#e5efff}.board{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(2px,.55vw,6px);padding:10px;background:#fffdf7;border:3px dashed #9ac8df;border-radius:16px;margin:8px auto;max-height:none;overflow:visible;align-content:start}.piece{padding:0;border:1px solid #edf0f2;border-radius:8px;background:white;aspect-ratio:1;min-width:0;display:grid;place-items:center}.piece svg{width:95%;height:95%;overflow:visible}.piece:focus-visible{outline:3px solid #0086ff}.bottom{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}.place{display:flex;gap:10px}.slot{border:3px solid #89b5d7;border-radius:14px;padding:5px 12px;background:#f2f9ff;min-width:90px;cursor:pointer}.slot#tens{border-color:#e74b4b;background:#ffe9e9;color:#9e2020}.slot#units{border-color:#237bd7;background:#e5f1ff;color:#1455a0}.slot#tens.active{outline:3px solid #b51d1d;outline-offset:1px}.slot#units.active{outline:3px solid #175cb4;outline-offset:1px}.slot b{font-size:30px;display:block;line-height:1.1}.slot small{font-weight:900}.digits{display:grid;grid-template-columns:repeat(5,42px);gap:5px}.digit{padding:7px;border-radius:10px;border:0;background:#e8f0ff;font-size:21px;font-weight:900;color:#1a4674}.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:10px}.feedback{min-height:25px;font-weight:800;color:#bb4d28;margin:6px}.stats{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.stat{background:#eef8ff;padding:14px;border-radius:15px;min-width:110px}.stat b{font-size:27px;display:block}.stars{font-size:46px}@media(max-width:560px){.screen{padding:5px;align-items:stretch}.panel{border-radius:14px;padding:8px}.top .btn{padding:8px;font-size:13px}.pill{font-size:13px;padding:6px}.board{grid-template-columns:repeat(9,minmax(0,1fr));max-height:none;padding:4px;gap:2px}.swatch{width:30px;height:30px}.palette{gap:6px}.bottom{gap:5px}.slot{min-width:75px;padding:3px 7px}.slot b{font-size:24px}.digits{grid-template-columns:repeat(5,34px);gap:3px}.digit{font-size:18px;padding:5px}.btn{padding:9px 12px;font-size:14px}.instruction{margin:5px 0}}@media(max-height:650px) and (min-width:700px){.screen{align-items:flex-start}.board{max-height:none}.panel{padding:8px}.swatch{width:28px;height:28px}.palette{margin:4px}}
+
+/* Tablero adaptable: todas las figuras visibles sin scroll */
+#game{height:100dvh;min-height:0;overflow:hidden;padding:5px;align-items:center}
+#game>.panel{height:calc(100dvh - 10px);max-height:calc(100dvh - 10px);display:flex;flex-direction:column;min-height:0;padding:clamp(5px,1.1vh,12px);overflow:hidden}
+#game .top,#game .progress,#game .instruction,#game .palette,#game .bottom,#game .feedback,#game .actions{flex-shrink:0}
+#game .board{flex:1 1 auto;min-height:0;max-height:none;overflow:hidden;margin:3px auto 5px;padding:3px;gap:2px;align-content:stretch;justify-content:stretch;width:100%}
+#game .piece{aspect-ratio:auto;width:100%;height:100%;min-height:0;border-radius:5px}
+#game .piece svg{width:100%;height:100%;max-width:100%;max-height:100%}
+#game .progress{margin:4px 0;height:6px}
+#game .instruction{margin:3px 0;font-size:clamp(12px,1.7vh,17px);line-height:1.2}
+#game .palette{margin:4px 0;gap:clamp(4px,1vw,9px)}
+#game .swatch{height:clamp(23px,4vh,34px);width:clamp(23px,4vh,34px)}
+#game .bottom{gap:7px}
+#game .slot{padding:2px 7px;min-width:65px}
+#game .slot b{font-size:clamp(19px,3.3vh,27px)}
+#game .slot small{font-size:10px}
+#game .digits{grid-template-columns:repeat(5,clamp(25px,4.5vh,38px));gap:3px}
+#game .digit{padding:clamp(2px,.5vh,5px);font-size:clamp(15px,2.5vh,19px)}
+#game .feedback{min-height:17px;margin:2px;font-size:clamp(11px,1.8vh,15px)}
+#game .actions{margin-top:3px;gap:5px}
+#game .actions .btn{padding:clamp(5px,1vh,9px) clamp(7px,1.3vw,14px);font-size:clamp(12px,1.9vh,17px)}
+@media(max-width:560px){#game .top .pill{font-size:11px;padding:4px 6px}#game .top .btn{font-size:11px;padding:5px}#game .palette{gap:4px}#game .bottom{gap:4px}#game .place{gap:4px}}
+</style>
+<style id="mobile-fit-v7">
+#game{height:var(--game-height,100dvh)!important;min-height:0!important;overflow:hidden!important}
+#game>.panel{height:100%!important;max-height:100%!important;min-height:0!important;overflow:hidden!important}
+#game .board{min-height:0!important;flex:1 1 0!important;overflow:hidden!important}
+#game .piece{min-height:0!important;min-width:0!important;overflow:hidden!important}
+#game .piece svg{display:block;overflow:hidden!important}
+#game .palette{flex-wrap:nowrap!important;gap:clamp(2px,.7vw,6px)!important;margin:3px 0!important}
+#game .swatch{flex:0 1 auto!important;width:min(7.6vw,34px)!important;height:min(7.6vw,34px)!important;min-width:0!important}
+#game .eraser svg{width:85%;height:85%}
+#game .instruction{font-size:clamp(11px,1.6vh,16px)!important;line-height:1.15!important;margin:2px 0!important}
+#game .actions{flex-wrap:nowrap!important;gap:4px!important}
+#game .actions .btn{white-space:nowrap;padding:5px 7px!important;font-size:clamp(11px,2.7vw,16px)!important}
+#game .feedback{font-size:clamp(10px,2.7vw,14px)!important;line-height:1.15!important;min-height:0!important}
+@media(max-width:560px){
+#game>.panel{padding:5px!important}
+#game .bottom{flex-wrap:nowrap!important}
+#game .slot{min-width:0!important;padding:2px 5px!important}
+#game .digits{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:2px!important}
+#game .digit{padding:4px 3px!important}
+#game .top{flex-wrap:nowrap!important}
+}
+</style>
+
+<style id="larger-number-buttons-v8">
+/* Teclado grande sin desplazar los botones inferiores */
+#game .bottom{width:100%;gap:clamp(4px,1.4vw,12px)!important;justify-content:center}
+#game .place{flex:0 0 auto;gap:4px!important}
+#game .slot{width:clamp(65px,12vw,108px);padding:3px 4px!important}
+#game .digits{flex:0 1 310px;min-width:0;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:4px!important}
+#game .digit{min-width:0;min-height:46px;padding:4px 1px!important;font-size:clamp(23px,4.5vw,30px)!important;border-radius:11px;line-height:1.1}
+@media(max-width:560px){
+ #game .place{flex:0 0 35%;min-width:0}
+ #game .slot{width:calc(50% - 2px);min-width:0!important;padding:3px 1px!important}
+ #game .slot small{font-size:clamp(8px,2.3vw,11px)!important}
+ #game .slot b{font-size:clamp(24px,6vw,32px)!important}
+ #game .digits{flex:1 1 0;gap:3px!important}
+ #game .digit{min-height:44px;font-size:clamp(22px,6vw,29px)!important;padding:3px 0!important}
+ #game .board{margin-top:2px;margin-bottom:3px}
+}
+@media(max-width:370px){
+ #game .place{flex-basis:34%}
+ #game .digit{min-height:42px;font-size:22px!important}
+}
+</style>
+<style id="large-action-buttons-v9">
+#game .actions{display:flex!important;flex-wrap:nowrap!important;width:100%;gap:clamp(5px,1.5vw,12px)!important;margin-top:5px!important;align-items:stretch}
+#game .actions .btn{flex:1 1 0!important;min-width:0!important;min-height:52px!important;padding:9px 5px!important;font-size:clamp(14px,3.4vw,21px)!important;line-height:1.12!important;white-space:nowrap!important;border-radius:14px!important;touch-action:manipulation}
+#game .actions #check{flex:1.35 1 0!important}
+#game .actions #next:not(.hidden){flex:1 1 100%!important;min-height:58px!important;font-size:clamp(18px,4.4vw,24px)!important}
+#game .actions:has(#next:not(.hidden)) #undo,#game .actions:has(#next:not(.hidden)) #clear{display:none!important}
+@media(max-width:390px){#game .actions .btn{font-size:clamp(12px,3.5vw,16px)!important;min-height:50px!important;padding:8px 2px!important}}
+</style></head><body><section id="intro" class="screen"><div class="panel intro"><div class="hero">🎨 🍎 🦋 🌼</div><h1>¡Agrupa de 10 en 10!</h1><p>¡Pinta grupos de diez con distintos colores y descubre las decenas y unidades!</p><input id="student" maxlength="70" placeholder="Escribe tu nombre" aria-label="Nombre del alumno"><p><button class="btn" id="start">🚀 ¡COMENZAR!</button></p><p class="muted">🔊 Escucha, cuenta, colorea y aprende</p></div></section><section id="game" class="screen hidden"><div class="panel"><div class="top"><span class="pill" id="round">Reto 1 de 5</span><span class="pill" id="score">⭐ 0 aciertos</span><button class="btn secondary" id="hear">🔊 Escuchar</button></div><div class="progress"><div class="fill" id="fill"></div></div><div class="instruction" id="instruction">Pinta grupos de 10. Deja los sobrantes en blanco y escribe decenas y unidades.</div><div class="palette" id="palette"></div><div id="board" class="board" aria-label="Colección de dibujos para colorear"></div><div class="bottom"><div class="place"><button class="slot active" id="tens"><small>DECENAS</small><b id="tensVal">?</b></button><button class="slot" id="units"><small>UNIDADES</small><b id="unitsVal">?</b></button></div><div class="digits" id="digits"></div></div><div class="feedback" id="feedback" aria-live="polite"></div><div class="actions"><button class="btn secondary" id="undo">↶ Deshacer</button><button class="btn orange" id="clear">🧽 LIMPIAR</button><button class="btn" id="check">✅ COMPROBAR</button><button class="btn hidden" id="next">➡️ SIGUIENTE RETO</button></div></div></section><section id="end" class="screen hidden"><div class="panel intro"><div class="stars" id="stars">⭐⭐⭐</div><h1>¡Terminaste!</h1><h2 id="winner"></h2><p id="summary"></p><div class="stats"><div class="stat"><b id="correct">0</b>Aciertos</div><div class="stat"><b id="errors">0</b>Errores</div><div class="stat"><b id="percent">0%</b>Precisión</div></div><p id="time"></p><p class="muted" id="sendStatus"></p><div class="actions"><button class="btn red" id="exit">🚪 SALIR</button><button class="btn secondary" id="again">🔄 VOLVER A JUGAR</button></div></div></section><script>
+'use strict';
+const SHEETS_WEB_APP_URL='https://script.google.com/macros/s/AKfycbxf0106nAuf8lCxhaowf7dz6E5OBd0Drm1FXcSYMtzT9XVpyaizqLK9EVL6k9KBL5R2WA/exec';
+const NAME_KEY='weber_nombre_alumno',NAME_KEYS=[NAME_KEY,'nombreAlumno','nombre_alumno','alumnoNombre','studentName','student_name','nombre'];
+const GAME='Agrupa de 10 en 10',TOTAL=5;
+const COLORS=['#ef5350','#163b91','#55b75b','#ffca28','#9b43b5','#ff895d','#00bfd1','#87664f','#e83283','#a8d63d'];
+const COLOR_NAMES=['rojo','azul marino','verde','amarillo','morado','naranja','turquesa','café','rosa','verde limón'];
+const $=id=>document.getElementById(id);
+let questions=[],index=0,correct=0,errors=0,attempts=0,started=0,name='',paint=[],history=[],selectedColor=0,activeSlot='tens',values={tens:null,units:null},locked=false,answers=[],sessionId='';
+const shapes=[
+'<path d="M25 19 C10 6 3 28 9 43 C13 56 21 57 25 53 C29 57 37 56 41 43 C47 28 40 6 25 19Z"/><path d="M25 19 Q23 9 30 5"/><path d="M26 14 Q37 5 40 11 Q35 20 26 14Z"/>',
+'<path d="M25 7 C37 14 43 27 38 39 Q33 50 25 54 Q17 50 12 39 C7 27 13 14 25 7Z"/><path d="M25 7V54 M15 28H35 M18 38H32"/>',
+'<path d="M25 23 C6 -1 0 22 14 29 C-2 40 12 56 25 35 C38 56 52 40 36 29 C50 22 44 -1 25 23Z"/><path d="M25 17V44 M22 14L18 7 M28 14L32 7"/>',
+'<path d="M25 9 C30 16 36 16 42 13 C39 22 42 28 47 32 C38 34 34 40 33 48 C25 43 20 43 12 48 C14 39 10 34 3 32 C10 27 12 21 9 13 C16 16 21 16 25 9Z"/><circle cx="25" cy="30" r="6"/>',
+'<path d="M13 20 Q4 10 14 9 Q22 6 25 15 Q28 6 36 9 Q46 10 37 20 Q48 25 43 39 Q38 52 25 49 Q12 52 7 39 Q2 25 13 20Z"/><path d="M17 23Q25 29 33 23 M17 37Q25 31 33 37"/>'];
+function shapeSVG(type,color){let body=shapes[type];return `<svg viewBox="0 0 50 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g fill="${color||'#fff'}" stroke="#202d3c" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">${body}</g></svg>`}
+function say(text){if(!('speechSynthesis'in window))return;window.speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(text);u.lang='es-MX';u.rate=.85;u.pitch=1.06;let voices=speechSynthesis.getVoices();let es=voices.find(v=>v.lang.toLowerCase()==='es-mx')||voices.find(v=>v.lang.toLowerCase().startsWith('es'));if(es)u.voice=es;speechSynthesis.speak(u)}
+function readName(){for(let k of NAME_KEYS){try{let v=localStorage.getItem(k);if(v)return v}catch(e){}}return ''}function saveName(n){try{localStorage.setItem(NAME_KEY,n);localStorage.setItem('nombreAlumno',n)}catch(e){}}
+function rand(n){return Math.floor(Math.random()*n)}function shuffle(a){for(let i=a.length-1;i>0;i--){let j=rand(i+1);[a[i],a[j]]=[a[j],a[i]]}return a}
+function generate(){let nums=shuffle(Array.from({length:50},(_,i)=>i+10));return nums.slice(0,TOTAL).map((n,i)=>({n,type:i%5}))}
+function instruction(){say('Elige un color. Toca los dibujos para pintar un grupo de diez. Colorea grupos de diez. Los dibujos que sobren quedan sin pintar. Después escribe las decenas y unidades. Después coloca las decenas y las unidades y pulsa comprobar.')} 
+function start(){name=$('student').value.trim();if(!name){$('student').focus();say('Primero escribe tu nombre');return}saveName(name);document.documentElement.requestFullscreen?.().catch(()=>{});questions=generate();index=correct=errors=attempts=0;answers=[];started=Date.now();sessionId=Date.now()+'-'+Math.random().toString(36).slice(2);$('intro').classList.add('hidden');$('end').classList.add('hidden');$('game').classList.remove('hidden');show();setTimeout(instruction,200)}
+function show(){let q=questions[index];paint=Array(q.n).fill(null);history=[];selectedColor=0;activeSlot='tens';values={tens:null,units:null};locked=false;$('round').textContent=`Reto ${index+1} de ${TOTAL}`;$('score').textContent=`⭐ ${correct} aciertos`;$('fill').style.width=(index/TOTAL*100)+'%';$('feedback').textContent='';$('check').classList.remove('hidden');$('next').classList.add('hidden');$('palette').innerHTML='';COLORS.forEach((c,i)=>{let b=document.createElement('button');b.className='swatch'+(i===0?' active':'');b.style.background=c;b.setAttribute('aria-label','Color '+COLOR_NAMES[i]);b.title=COLOR_NAMES[i];b.onclick=()=>{selectedColor=i;document.querySelectorAll('.swatch').forEach((x,j)=>x.classList.toggle('active',j===i))};$('palette').append(b)});let eraser=document.createElement('button');eraser.className='swatch eraser';eraser.innerHTML='<svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><path d="M9 30 27 9q3-3 6 0l10 10q3 3 0 6L26 43H16L9 36q-3-3 0-6Z" fill="#ff83ac" stroke="#24364a" stroke-width="2.5" stroke-linejoin="round"/><path d="m18 20 18 17-6 6H16L9 36q-3-3 0-6Z" fill="#f5f7fc" stroke="#24364a" stroke-width="2.5" stroke-linejoin="round"/><path d="M16 43h27" stroke="#24364a" stroke-width="2.5" stroke-linecap="round"/></svg>';eraser.setAttribute('aria-label','Borrador: quitar color de un dibujo');eraser.title='Borrador';eraser.onclick=()=>{selectedColor=-1;document.querySelectorAll('.swatch').forEach(x=>x.classList.toggle('active',x===eraser))};$('palette').append(eraser);let order=shuffle(Array.from({length:q.n},(_,i)=>i));$('board').innerHTML='';order.forEach(i=>{let b=document.createElement('button');b.className='piece';b.dataset.i=i;b.setAttribute('aria-label','Dibujo sin colorear');b.innerHTML=shapeSVG(q.type,null);b.onclick=()=>paintPiece(i);$('board').append(b)});$('digits').innerHTML='';for(let i=0;i<=9;i++){let b=document.createElement('button');b.className='digit';b.textContent=i;b.onclick=()=>{if(locked)return;values[activeSlot]=i;updateSlots()};$('digits').append(b)}updateSlots();requestAnimationFrame(fitBoard)}
+function fitBoard(){
+ const viewHeight=Math.floor(window.visualViewport?.height||window.innerHeight);
+ document.documentElement.style.setProperty('--game-height',viewHeight+'px');
+
+ const board=$('board');if(!board||$('game').classList.contains('hidden'))return;
+ const n=board.children.length;if(!n)return;
+ const panel=$('game').querySelector('.panel');
+ const siblings=[...panel.children].filter(el=>el!==board && getComputedStyle(el).display!=='none');
+ const used=siblings.reduce((sum,el)=>{const st=getComputedStyle(el);return sum+el.getBoundingClientRect().height+parseFloat(st.marginTop||0)+parseFloat(st.marginBottom||0)},0);
+ const available=Math.max(80,panel.clientHeight-used-18);
+ board.style.height=available+'px';
+ const w=Math.max(100,board.clientWidth-12),h=Math.max(60,available-12);
+ let best={score:-1,cols:10,rows:10};
+ for(let cols=5;cols<=Math.min(n,26);cols++){
+   const rows=Math.ceil(n/cols),cw=(w-(cols-1)*2)/cols,ch=(h-(rows-1)*2)/rows;
+   const side=Math.min(cw,ch);
+   const score=side + (cw>=ch?0.0001:0);
+   if(score>best.score)best={score,cols,rows};
+ }
+ board.style.gridTemplateColumns=`repeat(${best.cols},minmax(0,1fr))`;
+ board.style.gridTemplateRows=`repeat(${best.rows},minmax(0,1fr))`;
+}
+function updateSlots(){$('tensVal').textContent=values.tens??'?';$('unitsVal').textContent=values.units??'?';$('tens').classList.toggle('active',activeSlot==='tens');$('units').classList.toggle('active',activeSlot==='units')}
+function paintPiece(i){if(locked)return;let next=selectedColor===-1?null:selectedColor;if(paint[i]===next)return;history.push([i,paint[i]]);paint[i]=next;refreshPiece(i)}function refreshPiece(i){let el=$('board').querySelector(`[data-i="${i}"]`);if(!el)return;el.innerHTML=shapeSVG(questions[index].type,paint[i]===null?null:COLORS[paint[i]]);el.setAttribute('aria-label',paint[i]===null?'Dibujo sin colorear':'Dibujo coloreado')}
+function clearPaint(){if(locked)return;paint.fill(null);history=[];values={tens:null,units:null};updateSlots();$('board').querySelectorAll('.piece').forEach(el=>refreshPiece(+el.dataset.i));$('feedback').textContent='';say('Vamos a empezar otra vez. Cuenta con cuidado.')}
+function undo(){if(locked||!history.length)return;let [i,prev]=history.pop();paint[i]=prev;refreshPiece(i)}
+function check(){if(locked)return;if(values.tens===null||values.units===null){say('Coloca un número en decenas y otro en unidades');$('feedback').textContent='Escribe las decenas y las unidades.';return}attempts++;let n=questions[index].n;let tens=Math.floor(n/10),units=n%10;
+// El coloreado es únicamente una ayuda visual. No se evalúa ni se exige colorear.
+let ok=values.tens===tens&&values.units===units;
+if(ok){correct++;locked=true;$('feedback').textContent='✅ ¡Excelente! ¡El número es correcto!';say('¡Muy bien! ¡El número es correcto!');$('check').classList.add('hidden');$('next').classList.remove('hidden');$('score').textContent=`⭐ ${correct} aciertos`;answers.push({ejercicio:index+1,cantidad:n,acierto:true,intentos:attempts,decenas:values.tens,unidades:values.units});}
+else{errors++;$('feedback').textContent='❌ Te equivocaste. Revisa las decenas y las unidades y vuelve a contar.';say('Te equivocaste. Vuelve a contar con cuidado.');}
+}
+function next(){if(!locked)return;index++;if(index===TOTAL)finish();else{show();setTimeout(()=>say('Nuevo reto. Cuenta los dibujos. Puedes colorear grupos de diez y dejar sin pintar los que sobren.'),200)}}
+function finish(){speechSynthesis?.cancel();$('game').classList.add('hidden');$('end').classList.remove('hidden');let sec=Math.round((Date.now()-started)/1000),percent=Math.round(correct/TOTAL*100);$('winner').textContent=name;$('summary').textContent=`¡Completaste los ${TOTAL} desafíos!`;$('correct').textContent=correct;$('errors').textContent=errors;$('percent').textContent=percent+'%';$('time').textContent=`Tiempo: ${Math.floor(sec/60)} min ${sec%60} s · Intentos: ${attempts}`;$('stars').textContent=errors===0?'⭐⭐⭐':errors<=3?'⭐⭐':'⭐';say('¡Felicidades! Terminaste los cinco retos.');sendResult({nombre:name,juego:GAME,fecha:new Date().toISOString(),total:TOTAL,aciertos:correct,errores:errors,porcentaje:percent,tiempo_segundos:sec,respuestas:JSON.stringify(answers),partida:sessionId});}
+const QUEUE_KEY='weber_resultados_pendientes';function getQueue(){try{return JSON.parse(localStorage.getItem(QUEUE_KEY)||'[]')}catch(e){return []}}function setQueue(q){try{localStorage.setItem(QUEUE_KEY,JSON.stringify(q))}catch(e){}}
+let flushing=false;async function flushQueue(){if(flushing||!navigator.onLine)return;flushing=true;let q=getQueue();for(let item of [...q]){try{await fetch(SHEETS_WEB_APP_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(item)}); // no-cors cannot confirm server receipt; retain no false confirmation
+q=q.filter(x=>x.partida!==item.partida);setQueue(q);
+}catch(e){break}}flushing=false}
+function sendResult(data){let q=getQueue();if(!q.some(x=>x.partida===data.partida))q.push(data);setQueue(q);$('sendStatus').textContent=navigator.onLine?'Enviando registro (la recepción no puede confirmarse desde este navegador).':'Sin conexión: resultado guardado para enviar cuando vuelva internet.';flushQueue()}
+function exit(){speechSynthesis?.cancel();document.exitFullscreen?.().catch(()=>{});$('end').classList.add('hidden');$('game').classList.add('hidden');$('intro').classList.remove('hidden');$('student').value=name}
+$('student').value=readName();$('start').onclick=start;$('hear').onclick=instruction;$('tens').onclick=()=>{activeSlot='tens';updateSlots()};$('units').onclick=()=>{activeSlot='units';updateSlots()};$('clear').onclick=clearPaint;$('undo').onclick=undo;$('check').onclick=check;$('next').onclick=next;$('again').onclick=()=>{
+  // Nueva partida sin salir de pantalla completa.
+  // No llamar a exit(), pues exitFullscreen() terminaría el modo inmersivo.
+  if('speechSynthesis' in window)window.speechSynthesis.cancel();
+  questions=generate();index=0;correct=0;errors=0;attempts=0;
+  answers=[];started=Date.now();
+  sessionId=Date.now()+'-'+Math.random().toString(36).slice(2);
+  $('end').classList.add('hidden');
+  $('intro').classList.add('hidden');
+  $('game').classList.remove('hidden');
+  show();
+  if(!document.fullscreenElement)document.documentElement.requestFullscreen?.().catch(()=>{});
+  setTimeout(instruction,200);
+};$('exit').onclick=exit;window.addEventListener('resize',()=>requestAnimationFrame(fitBoard));window.visualViewport?.addEventListener('resize',()=>requestAnimationFrame(fitBoard));document.addEventListener('fullscreenchange',()=>setTimeout(fitBoard,120));window.addEventListener('online',flushQueue);if(navigator.onLine)flushQueue();
+</script></body></html>
